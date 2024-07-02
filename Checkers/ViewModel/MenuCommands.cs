@@ -15,6 +15,9 @@ using Path = System.IO.Path;
 
 using System.Collections.ObjectModel;
 using Microsoft.Win32;
+using System.Security.Policy;
+using System.Windows.Documents;
+using System.Windows.Media;
 
 namespace Checkers
 {
@@ -161,14 +164,15 @@ namespace Checkers
         }
 
 
-
         // const values
-        private const string AboutMessage = "Name: Damian Mihai Cristian\n" +
+        private const string AboutMessage = "Name: Dobre Octavian-Stefan\n" +
                                             "Group: 10LF221\n" +
-                                            "Email: mihai.damian@student.unitbv.ro\n" +
-                                            "\r\nCheckers is a classic board game played on an 8x8 grid with alternating dark and light squares. Each player starts with 12 pieces, typically distinguished by color, placed on the dark squares of their respective sides of the board. The primary objective is to capture all of the opponent's pieces or to block them from making any legal moves.\r\n\r\n" +
-                                            "In Checkers, pieces move diagonally forward, one square at a time, onto empty adjacent squares. They can capture an opponent's piece by jumping over it diagonally, provided the square immediately beyond is vacant. Multiple captures can be made in a single turn if the opportunity arises, leading to strategic play and the potential for rapid advancement.\r\n\r\n" +
-                                            "When a player's piece reaches the farthest row on the opponent's side of the board, it is \"kinged\" or \"crowned,\" becoming a \"king.\" A king is typically denoted by placing a second piece of the same color on top of the original piece. Kings gain enhanced movement capabilities, allowing them to move and capture both forwards and backwards diagonally. This elevation in status enhances their strategic value and introduces additional layers of complexity to the game.";
+                                            "Email: octavian.dobre@student.unitbv.ro\n" +
+                                            "\nCheckers is a classic board game played on an 8x8 grid with alternating dark and light squares. Each player starts with 12 pieces, typically distinguished by color, placed on the dark squares of their respective sides of the board. The primary objective is to capture all of the opponent's pieces or to block them from making any legal moves.\n" +
+                                            "\nIn Checkers, pieces move diagonally forward, one square at a time, onto empty adjacent squares. They can capture an opponent's piece by jumping over it diagonally, provided the square immediately beyond is vacant. Multiple captures can be made in a single turn if the opportunity arises, leading to strategic play and the potential for rapid advancement.\n" +
+                                            "\nWhen a player's piece reaches the farthest row on the opponent's side of the board, it is \"kinged\" or \"crowned,\" becoming a \"king.\" A king is typically denoted by placing a second piece of the same color on top of the original piece. Kings gain enhanced movement capabilities, allowing them to move and capture both forwards and backwards diagonally. This elevation in status enhances their strategic value and introduces additional layers of complexity to the game.";
+
+
 
 
 
