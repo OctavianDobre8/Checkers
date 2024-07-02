@@ -56,4 +56,8 @@ A Checkers game app made with C# language and .Net framework.
 
 # Photos
 The initial moment of the game 
-![Checkers Game Default](https://imgur.com/a/VmOClJj)  
+![basic](https://github.com/OctavianDobre8/Checkers/assets/147343943/3cb49b24-db0f-4891-9fa6-411f670ffe05)
+Kings Mode 
+![king](https://github.com/OctavianDobre8/Checkers/assets/147343943/be069acb-da35-4b44-a29b-d8cc1b82772b)
+Few Pieces Mode, about to take a piece
+![few](https://github.com/OctavianDobre8/Checkers/assets/147343943/a19df9cc-63f8-4e03-930c-48d196c1ce96)
